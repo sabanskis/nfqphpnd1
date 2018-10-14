@@ -1,0 +1,2 @@
+Nenaudojant strict_types, PHP bando pakeisti argumenta i toki, kuris yra reikalingas funkcijoje, tarkim reikalingi float o argumentai yra 1 ir "2dienos", bus imama 1 ir 2 reiksmes, nesinaudojant strict_types,
+funkcijos tampa lankstesnės ir gali suveikti ne su itin tiksliais parametrais. Naudojant strict_types galima paduoti tik reikiama parametra, tokiu atveju kodas tampa kiek lengviau skaitomas, bei saugesnis. 
